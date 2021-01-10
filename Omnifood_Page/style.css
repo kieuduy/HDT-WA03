@@ -1,0 +1,121 @@
+/* Style background and margin, padding for total web */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../Omnifood_Page/Omni Page/hero.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    /* background-attachment:fixed  */
+}
+
+/* Header */
+.header
+{
+    font-family: cursive;
+    
+    width: 100%;
+    justify-content: space-between;
+    color: gainsboro;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+.logo{
+    width: 110px;
+    height: 110px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.menu{
+    color: black;
+    font-size: 25px;
+    display: flex;
+    padding: 0px;
+    margin-left: 620px;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.submenu{
+    padding: 70px 23px;
+}
+.p2{
+    display: block;
+    margin-top: 220px;
+    margin-left: 320px;
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    color: black;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bt1{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 0px solid black;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #ffa200;
+}
+.bt1:hover{
+    background-color: #de9000;
+}
+h1{
+    font-size: 45px;
+}
+.bt2{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #ffa200;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 50px;
+    opacity: 0px;
+}
+.p_in_bt2{
+    margin-top: 12px; 
+    color: #ffa200;
+}
+.bt2:hover{
+    background-color: #ffa200;
+}
+.p_in_bt2:hover{
+    color: white;
+}
+.slogan{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 730px;
+    font-size: 40px;
+    text-align: center;
+}
+.paragph{
+
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 130px;
+}
+.title{
+    font-size: 35px;
+    display: flex;
+    margin-left: 150px;
+    /* justify-content: space-around; */
+    width: 90%;
+    
+}
+.text{
+    font-size: 24px;
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-around; */
+    width: 90%;
+    margin-left: 150px;
+}
